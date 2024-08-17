@@ -74,5 +74,32 @@
     }
   ],
   "cart": [
+    {
+      "id": "5",
+      "category": "laptops",
+      "name": "Xiaomi [Smartchoice] Notebookpro",
+      "imgSrc": "https://m.media-amazon.com/images/I/71TPda7cwUL._SL1500_.jpg",
+      "description": "Xiaomi [Smartchoice] Notebookpro",
+      "price": "49999",
+      "quantity": 3
+    },
+    {
+      "id": "1",
+      "category": "mobiles",
+      "name": "Apple iPhone 14",
+      "imgSrc": "https://m.media-amazon.com/images/I/71xb2xkN5qL._SL1500_.jpg",
+      "description": "Apple iPhone 14 (128 GB) - Blue",
+      "price": "89999",
+      "quantity": 2
+    },
+    {
+      "id": "9",
+      "category": "tablets",
+      "name": "Samsung Galaxy Tab A8",
+      "imgSrc": "https://m.media-amazon.com/images/I/51b9LjzmPCL._SL1080_.jpg",
+      "description": "Samsung Galaxy Tab A8 26.69cm (10.5 inch) Display, RAM 4 GB, ROM 64 GB Expandable, Wi-Fi Tablet, Gray, (SM-X200NZAEINU)",
+      "price": "49999",
+      "quantity": 3
+    }
   ]
 }

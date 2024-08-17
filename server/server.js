@@ -11,10 +11,12 @@ server.use(middlewares);
 server.use(
  // Add custom route here if needed
  jsonServer.rewriter({
-  "/api/*": "/$1",
-  "/products": "/products",
-  "/cart": "/cart"
- })
+    "/api/*": "/$1",
+    "/products": "/products",
+    "/cart": "/cart",
+    "/cart/:id": "/cart/:id",
+    "/products/search": "/products?name_like=:searchTerm"
+  })
 );
 server.use(router);
 // Listen to port
