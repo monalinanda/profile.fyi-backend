@@ -20,7 +20,7 @@ server.use(
 );
 server.use(router);
 // Listen to port
-server.listen(3000, () => {
+server.listen("https://profile-fyi-backend-xi.vercel.app/", () => {
  console.log("JSON Server is running");
 });
 
