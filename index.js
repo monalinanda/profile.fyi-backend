@@ -31,7 +31,7 @@ app.post("/products", async (req, res) => {
   res.status(201).json(product);
 });
 
-//Cart Post
+//cart array update with POST
 app.post("/cart", async (req, res) => {
   const cartItem = new CartModel(req.body);
   await cartItem.save();
